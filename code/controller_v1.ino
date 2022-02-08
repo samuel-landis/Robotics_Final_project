@@ -1,9 +1,7 @@
-//Transmitter Code (Glove) - Mert Arduino and Tech
+#include <SPI.h>     
+#include "RF24.h"            
 
-#include <SPI.h>                      //the communication interface with the modem
-#include "RF24.h"                     //the library which helps us to control the radio modem
-
-int msg[6]; //Total number of data to be sent (data package)
+int msg[6]; 
 
 int VRx1 = A0;
 int VRy1 = A1;
