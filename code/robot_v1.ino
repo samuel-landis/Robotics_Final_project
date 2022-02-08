@@ -4,7 +4,7 @@
 
 RF24 radio(9,10);     /* 9 and 10 CE and CSN are connected.*/
 
-const uint64_t pipe = robot15772sLandis; 
+const uint64_t pipe = 15772; 
 
 int msg[6];
 
