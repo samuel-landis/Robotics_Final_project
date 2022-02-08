@@ -44,7 +44,6 @@ void setup(){
 
 void loop(){ 
   yPosition1 = analogRead(VRy1);
-  Serial.println(yPosition1);
   val_0 = map(yPosition1, 630, 730, 170, 10);
   
   xPosition1 = analogRead(VRx1);
