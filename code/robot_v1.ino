@@ -45,22 +45,22 @@ void setup(void){
 void loop(void){ 
   yPosition1 = analogRead(VRy1);
   Serial.println(yPosition1);
-  val_0 = map(yPosition1, 630, 730, 170, 10);
+  val_0 = map(yPosition1, 1023, 0, 170, 10);
   
   xPosition1 = analogRead(VRx1);
-  val_1 = map(xPosition1, 520, 710, 170, 10);
+  val_1 = map(xPosition1, 1023, 0, 170, 10);
   
   yPosition2 = analogRead(VRy2); 
-  val_2 = map(yPosition2, 630, 730, 170, 10);
+  val_2 = map(yPosition2, 1023, 0, 170, 10);
   
   xPosition2 = analogRead(VRx2);
-  val_3 = map(xPosition2, 520, 710, 170, 10);
+  val_3 = map(xPosition2, 1023, 0, 170, 10);
   
   yPosition3 = analogRead(VRy3); 
-  val_4 = map(yPosition3, 630, 730, 170, 10);
+  val_4 = map(yPosition3, 1023, 0, 170, 10);
   
   xPosition3 = analogRead(VRx3);
-  val_5 = map(xPosition3, 520, 710, 170, 10);
+  val_5 = map(xPosition3, 1023, 0, 170, 10);
 
   msg[0] = val_0;
   msg[1] = val_1;
