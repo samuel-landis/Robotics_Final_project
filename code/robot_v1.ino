@@ -11,7 +11,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define DEFAULT_PULSE_WIDTH 1500
 #define FREQUENCY 50
 
-uint8_t servonum = 0;
+
 
 
 int pulseWidth(int angle){
@@ -31,12 +31,11 @@ pwm.setPWMFreq(FREQUENCY);
 }
 
 void loop(){
-pwm.setPWM(0, 0, pulseWidth(10));
+pwm.setPWM(1, 0, pulseWidth(10));//first one is servo num
 delay(1000);
 pwm.setPWM(0, 0, pulseWidth(170));
-delay(500);
+delay(1000);
 pwm.setPWM(0, 0, pulseWidth(90));
 delay(1000);
 }
-
 
