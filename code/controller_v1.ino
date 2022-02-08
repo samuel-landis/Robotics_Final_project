@@ -26,7 +26,7 @@ int mapY3 = 0;
 
 RF24 radio(9,10);                     //9 and 10 are a digital pin numbers to which signals CE and CSN are connected.
                                       
-const uint64_t pipe = robot15772sLandis; 
+const uint64_t pipe = 15772; 
 
 
 void setup(void){
