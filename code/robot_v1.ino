@@ -31,9 +31,9 @@ pwm.setPWMFreq(FREQUENCY);
 }
 
 void loop(){
-pwm.setPWM(0, 0, pulseWidth(0));
+pwm.setPWM(0, 0, pulseWidth(10));
 delay(1000);
-pwm.setPWM(0, 0, pulseWidth(180));
+pwm.setPWM(0, 0, pulseWidth(170));
 delay(500);
 pwm.setPWM(0, 0, pulseWidth(90));
 delay(1000);
