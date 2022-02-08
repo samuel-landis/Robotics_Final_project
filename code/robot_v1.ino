@@ -29,7 +29,7 @@ RF24 radio(9,10);                     //9 and 10 are a digital pin numbers to wh
 const uint64_t pipe = 15772; 
 
 
-void setup(void){
+void setup(){
   Serial.begin(9600);
   Serial.println("Robotics project /n Samuel Landis /n slandis@unm.edu");
   pinMode(VRx1, INPUT);
@@ -42,7 +42,7 @@ void setup(void){
   radio.openWritingPipe(pipe); 
 }
 
-void loop(void){ 
+void loop(){ 
   yPosition1 = analogRead(VRy1);
   Serial.println(yPosition1);
   val_0 = map(yPosition1, 1023, 0, 170, 10);
