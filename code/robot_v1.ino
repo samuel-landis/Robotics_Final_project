@@ -1,11 +1,10 @@
-#include <Servo.h>    //the library which helps us to control the servo motor
-#include <SPI.h>      //the communication interface with the modem
-#include "RF24.h"     //the library which helps us to control the radio modem
+#include <SPI.h>      
+#include "RF24.h"     
 #include <Adafruit_PWMServoDriver.h>
 
 RF24 radio(9,10);     /* 9 and 10 CE and CSN are connected.*/
 
-const uint64_t pipe = robot15772sLandis; //the address of the modem,that will receive data from the Arduino.
+const uint64_t pipe = robot15772sLandis; 
 
 int msg[6];
 
@@ -29,9 +28,9 @@ Serial.begin(9600);
 Serial.println("Robotics project /n Samuel Landis /n slandis@unm.edu");
 pwm.begin();
 pwm.setPWMFreq(FREQUENCY);  
-radio.begin();                    //it activates the modem.
-radio.openReadingPipe(1, pipe);   //determines the address of our modem which receive data.
-radio.startListening();           //enable receiving data via modem
+radio.begin();                    
+radio.openReadingPipe(1, pipe);  
+radio.startListening();          
 }
 
 void loop(){
