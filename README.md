@@ -3,13 +3,13 @@
 
 **Project Overview:**
 
-For my final project in Advanced Robotics II, I designed and implemented a treaded robot based off of EOD robotics systems. The aim was to demonstrate advanced control techniques and integrate them into a functional robotic system.
+For my final project in Advanced Robotics II, I designed a treaded robot based off of EOD robotics systems. The aim was to demonstrate advanced control techniques and integrate them into a functional robot.
 
 **Key Components:**
 
 1. **Motors:** 
    - The robot is equipped with two DC motors that drive its movement.
-   - These motors are controlled via PWM signals to regulate their speed and direction.
+   - These motors are controlled via PWM signals to regulate the robot's speed and direction.
 
 2. **Pulse Width Modulation (PWM):**
    - PWM is used to control the amount of power supplied to the motors.
@@ -17,7 +17,7 @@ For my final project in Advanced Robotics II, I designed and implemented a tread
 
 3. **Control System:**
    - An embedded controller (Arduino) generated the PWM signals.
-   - The controller is programmed to adjust PWM parameters based on input from sensors or predefined control algorithms.
+   - The controller is programmed to adjust PWM parameters based on input from a predefined control algorithm.
      
 **Achievements:**
 
