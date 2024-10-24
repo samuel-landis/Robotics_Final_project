@@ -1,6 +1,8 @@
 # Advanced Robotics II
 ### Advanced Robotics II Final Project
 
+![image](https://github.com/user-attachments/assets/c0f92886-9e90-4c9f-82f3-f37f920f4e25)
+
 **Project Overview:**
 
 For my final project in Advanced Robotics II, I designed a treaded robot based off of EOD robotics systems. The aim was to demonstrate advanced control techniques and integrate them into a functional robot.
@@ -25,5 +27,5 @@ For my final project in Advanced Robotics II, I designed a treaded robot based o
 - The robot exhibited reliable and accurate movement, meeting the project's objectives.
 - The project received an A+ grade, reflecting the high quality and effectiveness of the design and implementation.
 
-![image](https://github.com/user-attachments/assets/c0f92886-9e90-4c9f-82f3-f37f920f4e25)
+
 
