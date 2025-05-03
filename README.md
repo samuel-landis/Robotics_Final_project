@@ -1,5 +1,4 @@
 # Advanced Robotics II
-### Advanced Robotics II Final Project
 
 ![image](https://github.com/user-attachments/assets/c0f92886-9e90-4c9f-82f3-f37f920f4e25)
 
